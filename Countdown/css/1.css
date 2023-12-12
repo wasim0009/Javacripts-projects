@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
+.main {
+  background-image: url("../image/luffy.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  flex-direction: column;
+}
+.title {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.box {
+  /* border: 2px solid green; */
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: row; 
+   align-items: center;
+  text-align: center;*/
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.box div {
+  width: 250px;
+  text-align: center;
+}
+input {
+  height: 50px;
+  width: 60%;
+  background-color: rgba(255,255, 255, .9);
+  border-radius: 2rex;
+  text-align: center;
+  font-size: 30px;
+}
